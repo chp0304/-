@@ -123,7 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CHAR.cpp" />
+    <ClCompile Include="LinkStack.cpp" />
     <ClCompile Include="链栈.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CHAR.h" />
+    <ClInclude Include="LinkStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
